@@ -1,12 +1,5 @@
-*.conf
-*.toml
-*.dirs
-*.locale
-*.json
-*.list
-.gsd*
 archlinux-tweak-tool
-arcolinux-logo
+arcolinux*
 ardour8
 autostart
 balena-etcher
@@ -34,3 +27,19 @@ nvim
 omf
 rofi
 Code - OSS
+font*
+galculator
+nomacs
+octopi
+paru
+qtile6
+yay
+.gsd*
+hyfetch.json
+mimeapps.list
+QtProject.conf
+Trolltech.conf
+user-dirs.dirs
+user-dirs.locale
+yad.conf
+qt5ct
