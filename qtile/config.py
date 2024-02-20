@@ -15,6 +15,7 @@ import subprocess
 def autostart():
     subprocess.call([path.join(qtile_path, 'autostart.sh')])
 
+
 # Some configuration variables
 auto_fullscreen = True
 bring_front_click = False

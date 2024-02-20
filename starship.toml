@@ -52,10 +52,10 @@ symbol = " "
 format = "[$symbol($version )]($style)"
 symbol = " "
 
-[rlang]
-format = "[$symbol($version )]($style)"
-symbol = " "
-
 [lua]
 format = "[$symbol($version )]($style)"
 symbol = " "
+
+[rlang]
+format = "[$symbol($version )]($style)"
+symbol = "󰟔 "
