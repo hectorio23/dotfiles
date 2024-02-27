@@ -43,3 +43,5 @@ user-dirs.dirs
 user-dirs.locale
 yad.conf
 qt5ct
+libreoffice/4/user/pack/registrymodifications.pack
+libreoffice/4/user/registrymodifications.xcu
