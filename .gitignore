@@ -43,5 +43,13 @@ user-dirs.dirs
 user-dirs.locale
 yad.conf
 qt5ct
-libreoffice/4/user/pack/registrymodifications.pack
-libreoffice/4/user/registrymodifications.xcu
+libreoffice/
+asciinema/
+archlinux-betterlockscreen/
+cmus/
+discord/
+fish/config.fish.bak
+obs-studio/
+vlc/
+ar*
+pavucontrol.ini

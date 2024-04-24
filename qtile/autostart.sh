@@ -2,6 +2,7 @@
 
 cbatticon -u 5 &
 volumeicon &
-feh --bg-fill ~/Desktop/wallpapers/0004.png
+# Change your wallpaper path here!
+feh --bg-fill /home/hectorio23/Desktop/wallpapers/Art\ digital/Distros.png
 setxkbmap es
 picom --no-vsync &

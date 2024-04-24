@@ -8,6 +8,7 @@ alias cat "bat"
 alias tree "exa -T"
 alias grep "grep --color=auto"
 alias pypwd "python /home/hectorio23/Desktop/pypwd/pypwd.py"
+alias dotnet "~/.dotnet/dotnet"
 
 
 # Fish custom prompt 
