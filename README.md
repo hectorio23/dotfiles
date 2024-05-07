@@ -4,9 +4,11 @@
 here are not all the file.
 
 This repository contains the following files custom
-- Qtile (Tilling Window Manager written in Python )
 - Alacritty (A Simple terminal)
+- DWM (Comming Soon!) :)
 - Nvim (lightweight text editor)
+- Fish Shell
+- Qtile (Tilling Window Manager written in Python)
 
 ## Qtile
 
@@ -17,6 +19,10 @@ Qtile is a lightweight and highly customizable dynamic window manager written in
 ![Qtile Terminal Examples](./screenshots/0001.png)
 
 ![Qtile Nvim Custom](./screenshots/0002.png)
+
+## DWM
+
+### Comming soon!.
 
 ## Shortcuts
 

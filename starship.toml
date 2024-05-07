@@ -37,7 +37,7 @@ format = "[$symbol($version )]($style)"
 symbol = " "
 
 [java]
-format = "[${symbol}(${version} )]($style)"
+format = "[${symbol}($version )]($style)"
 symbol = " "
 
 [rust]
@@ -59,3 +59,9 @@ symbol = " "
 [rlang]
 format = "[$symbol($version )]($style)"
 symbol = "󰟔 "
+
+[custom.cpp]
+detect_extensions = ['cpp', 'h'] 
+format = "[$symbol($version )]($style)"
+symbol = " "
+style = "bold #4F8FEF"
