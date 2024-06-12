@@ -1,5 +1,5 @@
 import = [
-  "/usr/lib/node_modules/alacritty-themes/themes/Baskerville - Count Von Count.toml"
+  "/usr/lib/node_modules/alacritty-themes/themes/Argonaut.toml"
 ]
 
 [colors.bright]
