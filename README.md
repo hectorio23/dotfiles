@@ -1,14 +1,38 @@
 # This is my linux customization
 
-`Note:` For the moment I am making some corrections, for that reason 
-here are not all the file.
+`Note:` You can modify the shortcuts however you want.
 
 This repository contains the following files custom
 - Alacritty (A Simple terminal)
-- DWM (Comming Soon!) :)
+- DWM (TWM written in C) Faster!
 - Nvim (lightweight text editor)
 - Fish Shell
 - Qtile (Tilling Window Manager written in Python)
+
+## General Shortcuts
+
+
+| Shortcut           | Action                                                                            |
+|--------------------|-----------------------------------------------------------------------------------|
+| `mod + Shift + l`  | Locks the screen using i3lock.                                                    |
+| `mod + m`          | Opens the Rofi menu (applications).                                               |
+| `mod + Shift + m`  | Opens the Rofi window selector.                                                   |
+| `mod + f`          | Opens the Firefox browser.                                                        |
+| `mod + Enter`      | Opens the Alacritty terminal.                                                     |
+| `mod + r`          | Activates Redshift (color temperature adjustment).                                |
+| `mod + Shift + r`  | Deactivates Redshift.                                                             |
+| `mod + s`          | Takes a screenshot.                                                               |
+| `mod + Shift + s`  | Takes a selection screenshot.                                                     |
+| `mod + i`          | Opens IntelliJ IDEA.                                                              |
+| `mod + c`          | Opens Visual Studio Code.                                                         |
+| `mod + Shift + p`  | Opens Packet Tracer.                                                              |
+| `XF86AudioLowerVolume` | Lowers the audio volume.                                                      |
+| `XF86AudioRaiseVolume` | Raises the audio volume.                                                      |
+| `XF86AudioMute`     | Mutes or unmutes the audio.                                                      |
+| `XF86MonBrightnessUp` | Increases the monitor brightness.                                              |
+| `XF86MonBrightnessDown` | Decreases the monitor brightness.                                            |
+
+
 
 ## Qtile
 
@@ -20,50 +44,91 @@ Qtile is a lightweight and highly customizable dynamic window manager written in
 
 ![Qtile Nvim Custom](./screenshots/0002.png)
 
-## DWM
+#### Specific Qtile Shortcuts
 
-### Comming soon!.
-
-## Shortcuts
-
-
-| Atajo              | Acción                                                                            |
+| Shortcut           | Action                                                                            |
 |--------------------|-----------------------------------------------------------------------------------|
-| `mod + j`          | Cambia a la ventana inferior en la pila actual.                                    |
-| `mod + k`          | Cambia a la ventana superior en la pila actual.                                    |
-| `mod + h`          | Cambia a la ventana izquierda en la pila actual.                                   |
-| `mod + l`          | Cambia a la ventana derecha en la pila actual.                                     |
-| `mod + Ctrl + l`   | Hace crecer la ventana actual (MonadTall).                                          |
-| `mod + Shift + h`  | Reduce el tamaño de la ventana actual (MonadTall).                                  |
-| `mod + Shift + f`  | Alterna entre modo flotante y mosaico para la ventana actual.                       |
-| `mod + Shift + j`  | Mueve la ventana actual hacia abajo en la pila.                                     |
-| `mod + Shift + k`  | Mueve la ventana actual hacia arriba en la pila.                                    |
-| `mod + Tab`        | Cambia al siguiente diseño de ventanas.                                             |
-| `mod + Shift + Tab`| Cambia al diseño de ventanas anterior.                                              |
-| `mod + w`          | Cierra la ventana actual.                                                           |
-| `mod + .`          | Cambia el enfoque al siguiente monitor.                                             |
-| `mod + ,`          | Cambia el enfoque al monitor anterior.                                              |
-| `mod + Ctrl + r`   | Reinicia Qtile.                                                                     |
-| `mod + Ctrl + q`   | Apaga Qtile.                                                                        |
-| `mod + Shift + l`  | Bloquea la pantalla usando i3lock.                                                  |
-| `mod + m`          | Abre el menú Rofi (aplicaciones).                                                   |
-| `mod + Shift + m`  | Abre el selector de ventanas Rofi.                                                  |
-| `mod + f`          | Abre el navegador Firefox.                                                          |
-| `mod + e`          | Abre el explorador de archivos PCManFM.                                             |
-| `mod + Enter`      | Abre la terminal Alacritty.                                                         |
-| `mod + r`          | Activa Redshift (ajuste de temperatura del color).                                  |
-| `mod + Shift + r`  | Desactiva Redshift.                                                                 |
-| `mod + s`          | Captura de pantalla.                                                                |
-| `mod + Shift + s`  | Captura de pantalla de selección.                                                   |
-| `mod + i`          | Abre IntelliJ IDEA.                                                                 |
-| `mod + c`          | Abre Visual Studio Code.                                                             |
-| `mod + b`          | Abre el navegador Brave.                                                             |
-| `mod + Shift + p`  | Abre Packet Tracer.                                                                 |
-| `XF86AudioLowerVolume` | Reduce el volumen del audio.                                                      |
-| `XF86AudioRaiseVolume` | Aumenta el volumen del audio.                                                     |
-| `XF86AudioMute`     | Silencia o reanuda el audio.                                                      |
-| `XF86MonBrightnessUp` | Aumenta el brillo del monitor.                                                   |
-| `XF86MonBrightnessDown` | Reduce el brillo del monitor.                                                    | 
+| `mod + j`          | Switches to the lower window in the current stack.                                |
+| `mod + k`          | Switches to the upper window in the current stack.                                |
+| `mod + h`          | Switches to the left window in the current stack.                                 |
+| `mod + l`          | Switches to the right window in the current stack.                                |
+| `mod + Ctrl + l`   | Grows the current window (MonadTall).                                             |
+| `mod + Shift + h`  | Shrinks the current window (MonadTall).                                           |
+| `mod + Shift + f`  | Toggles between floating and tiling mode for the current window.                  |
+| `mod + Shift + j`  | Moves the current window down in the stack.                                       |
+| `mod + Shift + k`  | Moves the current window up in the stack.                                         |
+| `mod + Tab`        | Switches to the next window layout.                                               |
+| `mod + Shift + Tab`| Switches to the previous window layout.                                           |
+| `mod + w`          | Closes the current window.                                                        |
+| `mod + .`          | Switches focus to the next monitor.                                               |
+| `mod + ,`          | Switches focus to the previous monitor.                                           |
+| `mod + Ctrl + r`   | Restarts Qtile.                                                                   |
+| `mod + Ctrl + q`   | Shuts down Qtile.                                                                 |
 
 
+## DWM
+DWM customization based on this configuration: [click here!](https://github.com/siduck/chadwm)
 
+DWM (Dynamic Window Manager) is a minimalist, efficient tiling window manager for the X Window System. It supports tiling and floating layouts, uses a tagging system instead of virtual desktops, and is highly customizable by editing its source code. DWM is keyboard-driven for productivity, features a built-in status bar, and performs well on older hardware. Despite its simplicity, it can be extended with community patches and modifications.
+
+
+#### Specific DWM Shortcuts
+
+
+| Shortcut Combination                   | Action                                                 |
+|----------------------------------------|--------------------------------------------------------|
+| `SUPER + b`                            | Toggle status bar                                      |
+| `SUPER + Control + t`                  | Toggle gaps                                            |
+| `SUPER + Shift + Space`                | Toggle floating mode                                   |
+| `SUPER + Shift + f`                    | Toggle fullscreen mode                                 |
+| `SUPER + Control + w`                  | Toggle tab mode                                        |
+| `SUPER + j`                            | Focus next window in stack                             |
+| `SUPER + k`                            | Focus previous window in stack                         |
+| `SUPER + d`                            | Decrease number of master windows                      |
+| `SUPER + Left`                         | Shift view left                                        |
+| `SUPER + Right`                        | Shift view right                                       |
+| `SUPER + Shift + o`                    | Reset client area size                                 |
+| `SUPER + Shift + j`                    | Move window down in stack                              |
+| `SUPER + Shift + k`                    | Move window up in stack                                |
+| `SUPER + Shift + Return`               | Zoom focused window                                    |
+| `SUPER + Tab`                          | View all windows                                       |
+| `SUPER + Control + i`                  | Increase overall gaps                                  |
+| `SUPER + Control + d`                  | Decrease overall gaps                                  |
+| `SUPER + Shift + i`                    | Increase inner gaps                                    |
+| `SUPER + Control + Shift + i`          | Decrease inner gaps                                    |
+| `SUPER + Control + o`                  | Increase outer gaps                                    |
+| `SUPER + Control + Shift + o`          | Decrease outer gaps                                    |
+| `SUPER + Control + 6`                  | Increase inner horizontal gaps                         |
+| `SUPER + Control + Shift + 6`          | Decrease inner horizontal gaps                         |
+| `SUPER + Control + 7`                  | Increase inner vertical gaps                           |
+| `SUPER + Control + Shift + 7`          | Decrease inner vertical gaps                           |
+| `SUPER + Control + 8`                  | Increase outer horizontal gaps                         |
+| `SUPER + Control + Shift + 8`          | Decrease outer horizontal gaps                         |
+| `SUPER + Control + 9`                  | Increase outer vertical gaps                           |
+| `SUPER + Control + Shift + 9`          | Decrease outer vertical gaps                           |
+| `SUPER + Control + Shift + d`          | Reset gaps to default                                  |
+| `SUPER + t`                            | Set tiling layout                                      |
+| `SUPER + Control + g`                  | Set grid layout                                        |
+| `SUPER + Control + Shift + t`          | Set centered master layout                             |
+| `SUPER + Space`                        | Toggle between layouts                                 |
+| `SUPER + Control + ,`                  | Cycle previous layout                                  |
+| `SUPER + Control + .`                  | Cycle next layout                                      |
+| `SUPER + 0`                            | View all tags                                          |
+| `SUPER + Shift + 0`                    | Apply all tags to focused window                       |
+| `SUPER + ,`                            | Focus previous monitor                                 |
+| `SUPER + .`                            | Focus next monitor                                     |
+| `SUPER + Shift + ,`                    | Move focused window to previous monitor                |
+| `SUPER + Shift + .`                    | Move focused window to next monitor                    |
+| `SUPER + Shift + w`                    | Reset border size                                      |
+| `SUPER + Control + q`                  | Kill DWM                                               |
+| `SUPER + w`                            | Close focused window                                   |
+| `SUPER + Control + r`                  | Restart DWM                                            |
+| `SUPER + e`                            | Hide focused window                                    |
+| `SUPER + Shift + e`                    | Restore hidden window                                  |
+
+**Status Bar**
+![DWM Status Bar](./screenshots/0004.png)
+--------------------------------------------
+
+**Terminal View**
+![DWM Terminal Examples](./screenshots/0003.png)

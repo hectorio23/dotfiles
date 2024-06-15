@@ -2,7 +2,7 @@ from libqtile import widget
 from .theme import colors
 
 
-# Get the icons at https://www.nerdfonts.com/cheat-sheet (you need a Nerd Font)
+# Get the icons from https://www.nerdfonts.com/cheat-sheet (you need a Nerd Font)
 def base(fg='text', bg='dark'): 
     return {
         'foreground': colors[fg],
