@@ -9,6 +9,8 @@ This repository contains the following files custom
 - Fish Shell
 - Qtile (Tilling Window Manager written in Python)
 
+##### **`A script shell for install my linux configuration is comming soon!`**
+
 ## General Shortcuts
 
 
