@@ -13,3 +13,5 @@ alias dotnet "~/.dotnet/dotnet"
 
 # Fish custom prompt 
 starship init fish | source
+
+export PATH="$PATH:/home/hectorio23/.dotnet/tools"

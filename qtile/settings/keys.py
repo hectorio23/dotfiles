@@ -1,6 +1,6 @@
 # Qtile keybindings
 from libqtile.config import Key
-from libqtile.command import lazy
+from libqtile.lazy import lazy
 
 mod = "mod4"
 
